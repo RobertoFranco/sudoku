@@ -13,7 +13,6 @@ public class Sudoku {
             throw new Exception("Number of missing digits must be 1 to 81.");
 
         this.missing = missing;
-        this.missing = 0;
 
         this.initialValues();
         this.fillDiagonal();
